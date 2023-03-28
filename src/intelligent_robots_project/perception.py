@@ -1,7 +1,7 @@
 import logging
 import numpy as np
 import cv2
-import quackquackduckiebot.trace_skeleton.trace_skeleton as trace_skeleton
+import intelligent_robots_project.trace_skeleton.trace_skeleton as trace_skeleton
 
 from functools import reduce
 
