@@ -3,7 +3,9 @@
 ## Installation
 
 Make sure you have `swig` with version `3.*.*` and a C-compiler installed on
-your system. If you install `swig` by `conda`, run `conda install swig=3.*.*`.
+your system. If you install `swig` by `conda`, run `conda install swig=3.*.*`;
+if you use `homebrew` on Mac and conda cannot install `swig`, run `brew install
+swig@3.0.12`.
 
 You can clone this repo. In the repo, run:
 ``` sh
