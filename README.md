@@ -59,6 +59,7 @@ env = DuckietownEnv(
 map_img, goal, start_pos = env.get_task_info()
 robot = LaneFollower(intentions, map_img, goal, visualize=True)
 
-obs, reward, done, info = env.step([0, 0])
+action = [0, 0]
+obs, reward, done, info = env.step(action)
 action = robot(obs, info, action)
 ```
